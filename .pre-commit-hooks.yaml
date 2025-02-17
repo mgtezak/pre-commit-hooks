@@ -1,0 +1,6 @@
+
+- id: empty-string-check-frontend
+  name: Block empty strings in JSON (frontend)
+  entry: bash scripts/check-empty-strings.sh
+  language: system
+  types: [json]
